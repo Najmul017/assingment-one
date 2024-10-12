@@ -1,7 +1,10 @@
+/* Common CSS */
 *{
     margin: 0 auto;
     padding: 0;
 }
+
+/* Banner Start */
 .banner{
     background-image: url('../assets/Hero-bg.png');
    height: 650px  ;
@@ -53,5 +56,6 @@ text-align: center;
 }
 .banner-detail{
     width: 998px;
-   
     }
+    /* Banner css end */
+
