@@ -3,6 +3,21 @@
     margin: 0 auto;
     padding: 0;
 }
+main{
+    max-width: 1140px; 
+}
+.text-center{
+    text-align: center;
+}
+.common-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
 
 /* Banner Start */
 .banner{
@@ -52,6 +67,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 letter-spacing: 0%;
+opacity: 0.7;
 text-align: center;
 }
 .banner-detail{
@@ -59,3 +75,112 @@ text-align: center;
     }
     /* Banner css end */
 
+    /*Web develop  */
+.web-develop{
+    height: 1393px;
+    border-radius: 16px;
+    padding: 80px 97px 80px 97px;
+    /* margin-top: 72px; */
+background: rgba(13, 19, 33, 0.02);
+}
+.card-one{
+    padding: 48px;
+    display: flex;
+    flex-direction: row-reverse;
+  gap: 20px;
+  border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.card-two{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 48px;
+    display: flex;
+  gap: 20px;
+  border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.card-all{
+   
+}
+.card-one-detail{
+    width:477px;
+    text-align: justify;
+}
+.dev-description{
+    text-align: justify;
+ padding-top: 20px;
+}
+.web-detail{
+    margin: 24px 0px;
+    
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+padding-left: 56px;
+padding-right: 56px;
+text-align: justify;
+}
+.card-heading{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.dev-btn{
+   margin-top: 30px;
+   color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 12px 20px 12px 20px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+.dev-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+text-align: left;
+}
+.web-title {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* development section end */
+
+/* inspiration  start with jhankar vai */
+.inspiration p{
+    padding: 31px 130px;
+}
+.video{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;
+
+width: 1140px;
+height: 614px;
+}
