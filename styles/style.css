@@ -172,15 +172,23 @@ text-align: center;
 /* development section end */
 
 /* inspiration  start with jhankar vai */
-.inspiration p{
+.inspiration p, .current-target p{
     padding: 31px 130px;
+    text-align: justify;
 }
 .video{
     box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
 padding: 32px;
-
 width: 1140px;
 height: 614px;
+margin-bottom: 40px;
+}
+.video iframe{
+    
+}
+/* current target section */
+.current-target .dev-description {
+
 }
