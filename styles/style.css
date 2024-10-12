@@ -23,6 +23,7 @@ main{
 .banner{
     background-image: url('../assets/Hero-bg.png');
    height: 650px  ;
+   margin-bottom: 40px;
 
 }
 .banner img{
@@ -172,7 +173,7 @@ text-align: center;
 /* development section end */
 
 /* inspiration  start with jhankar vai */
-.inspiration p, .current-target p{
+.inspiration p, .current-target > p{
     padding: 31px 130px;
     text-align: justify;
 }
@@ -189,6 +190,65 @@ margin-bottom: 40px;
     
 }
 /* current target section */
-.current-target .dev-description {
+.html{
+    border-radius: 16px;
+    padding: 40px;
+background: rgba(255, 76, 30, 0.05);
+}
+.css{
+    padding: 40px;
+    border-radius: 16px;
 
+background: rgba(0, 76, 232, 0.05);
+}
+.JavaScript{
+    border-radius: 16px;
+padding: 40px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.card-tile{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+}
+.card-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 8px 0px;
+    opacity: 0.7;
+}
+.card-btn{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+text-align: left;
+}
+.current-target-card{
+    display: flex;
+    gap: 24px;
+    /* margin: 48px 0px; */
+    text-align: left;
+}
+.current-target{
+    margin-bottom: 40px;
+}
+.card-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
 }
