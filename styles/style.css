@@ -74,6 +74,9 @@ text-align: center;
 .banner-detail{
     width: 998px;
     }
+    .banner-img{
+        padding-top: 20px;
+    }
     /* Banner css end */
 
     /*Web develop  */
