@@ -329,3 +329,32 @@ font-size: 20px;
  .footer{
     padding-left: 40px;
  }
+ /* nav */
+nav button{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+margin: 0px 10px;
+text-align: center;
+padding: 17px 24px 17px 24px;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+}
+nav h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+nav{
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
